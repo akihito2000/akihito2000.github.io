@@ -1,0 +1,82 @@
+body{
+    background-color:rgb(215, 186, 137);
+   
+}
+
+section.perfil{
+    background-color:rgb(25, 42, 81);
+    display:flex;
+   margin:auto;
+    width:860px;
+    height:300px;
+     justify-content:center;
+    align-items:center;
+    border-radius:20px;
+    box-shadow:0 0 15px 1px rgb(56, 56, 56);
+}
+
+img#img-perfil{
+    height:200px;
+    border-radius:50%;
+    margin-right:20px;
+    box-shadow:0 0 15px 0 rgb(0, 0, 0);
+}
+
+h1{
+    font-style:italic;
+    color:rgb(212, 175, 55);
+    font-size:5em;
+    padding:0px 0px 0px;
+    margin:0px 0 0px 7px;
+    max-width:max-content;
+}
+
+
+.perfil p{
+    color:white;
+    font-size:25px;
+    max-width:583px;
+    text-align:justify;
+    margin:0 0 0 0;
+}
+
+.perfil hr{
+    margin:0 0 0 0;
+}
+
+#github-logo, #linkedin-logo{
+    height:50px;
+    
+}
+
+.contact button{
+    background: none;
+    border:none;
+    padding:0 0 0 0;
+    
+}
+
+#linkedin-logo:hover{
+    background-color:rgb(212, 175, 55);
+    border-radius:3.5px;
+}
+
+#github-logo:hover{
+    background-color:rgb(212, 175, 55);
+    border-radius:50%;
+}
+
+.contact{
+    display:flex;
+    gap:10px;
+    align-items:center;
+    margin-top:10px;
+}
+
+.contact p{
+    color:rgb(38, 53, 82);
+    font-size:25px;
+    background-color:white;
+    border-radius:15px;
+    padding:0 1rem 0 1rem;
+}
