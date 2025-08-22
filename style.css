@@ -1,6 +1,9 @@
 body{
     background-color:rgb(215, 186, 137);
-   
+    margin:0;
+    display:flex;
+    flex-direction:column;
+    gap:10px;
 }
 
 section.perfil{
@@ -79,4 +82,34 @@ h1{
     background-color:white;
     border-radius:15px;
     padding:0 1rem 0 1rem;
+}
+
+nav.navbar{
+    background-color:rgb(25, 42, 81);
+    color:white;
+    padding:0px;
+}
+
+li{
+    list-style: none;
+    display:flex;
+    justify-content: center;
+    padding:0;
+
+}
+
+ul{
+    margin:0;
+    padding:20px;
+    font-weight:bold;
+padding-bottom:15px;
+border-bottom:5px solid transparent;
+}
+
+ul:hover{
+    cursor:pointer;
+    transition:.7s;
+    color:rgb(25, 42, 81);
+    background-color:white;
+    border-bottom:5px solid rgb(212, 175, 55);
 }
